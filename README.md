@@ -1,6 +1,6 @@
 # Static Pages
 ## Misago Plugin
-A simple plugin for the forum software Misago, that allows to add "static" pages via the admin control panel. Those can be used for purely informational pages that don't make sense to create a forum thread for.
+A simple plugin for the forum software [Misago](https://github.com/rafalp/Misago), that allows to add "static" pages via the admin control panel. Those can be used for purely informational pages that don't make sense to create a forum thread for.
 
 ## Features
 In the admin control panel the plugin adds a new side menu entry "Static Pages". Here you can add, edit and delete your pages.\

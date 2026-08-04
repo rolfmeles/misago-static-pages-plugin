@@ -1,0 +1,32 @@
+<!-- misago_static_pages_plugin/templates/misago_static_pages_plugin/static_page.html -->
+
+{% extends "misago/base.html" %}
+{% load i18n misago_absoluteurl %}
+
+
+{% block content %}
+<div class="legal-page legal-terms-of-service">
+  <div class="container page-header-container">
+    <div class="page-header page-header-terms-of-service">
+      <div class="page-header-bg-image">
+        <div class="page-header-bg-overlay">
+          <div class="page-header-image"></div>
+          <div class="page-header-banner page-header-banner-terms-of-service">
+            <div class="page-header-banner-bg-image">
+              <div class="page-header-banner-bg-overlay">
+                <h1>{{ page.title }}</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="legal-body container page-container">
+    <article class="misago-markup">
+      {{ page.content|safe }}
+    </article>
+  </div>
+</div>
+{% endblock content %}
+

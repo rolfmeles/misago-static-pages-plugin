@@ -15,7 +15,7 @@ The static pages blend in seemlessly into your misago forum and can be used for 
 
 ## Installation
 For Misago Docker:
-- Clone the repository into your misago/plugins folder.
+- Clone this repository into the plugins directory of your Misago installation.
 - Then run \
 `./appctl manage.py collectstatic`\
 and \

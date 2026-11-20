@@ -14,4 +14,5 @@ manifest = MisagoPlugin(
     license="GPL-2.0",
     version="1.0",
     icon="fa fa-file-alt",
+    repo="https://github.com/rolfmeles/misago-static-pages-plugin"
 )

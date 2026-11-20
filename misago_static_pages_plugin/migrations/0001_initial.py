@@ -1,5 +1,3 @@
-# misago_static_pages_plugin/migrations/0001_initial.py
-
 from django.db import migrations, models
 
 
@@ -42,7 +40,7 @@ class Migration(migrations.Migration):
                 ),
             ],
             options={
-                "ordering": ["title"],
+                "ordering": ("title"),
             },
         ),
     ]

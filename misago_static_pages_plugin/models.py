@@ -1,5 +1,3 @@
-# misago_static_pages_plugin/models.py
-
 from django.db import models
 
 
@@ -15,7 +13,7 @@ class StaticPage(models.Model):
     updated_on = models.DateTimeField(auto_now=True)
 
     class Meta:
-        ordering = ["title"]
+        ordering = ("title")
 
     def __str__(self):
         return self.title

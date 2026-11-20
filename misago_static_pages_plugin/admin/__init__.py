@@ -1,9 +1,7 @@
-# misago_static_pages_plugin/admin/__init__.py
-
 from django.urls import path
 from django.utils.translation import pgettext_lazy
 
-from .views import PagesList, NewPage, EditPage, DeletePage
+from .views import DeletePage, EditPage, NewPage, PagesList
 
 
 class MisagoAdminExtension:

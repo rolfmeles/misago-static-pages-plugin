@@ -1,5 +1,3 @@
-# misago_static_pages_plugin/views.py
-
 from django.shortcuts import get_object_or_404, render
 
 from .models import StaticPage

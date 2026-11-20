@@ -1,5 +1,3 @@
-# misago_static_pages_plugin/admin/forms.py
-
 from django import forms
 from django.utils.translation import pgettext_lazy
 
@@ -13,8 +11,8 @@ class PageForm(forms.ModelForm):
 
     class Meta:
         model = StaticPage
-        fields = [
+        fields = (
             "title",
             "slug",
             "content",
-        ]
+        )

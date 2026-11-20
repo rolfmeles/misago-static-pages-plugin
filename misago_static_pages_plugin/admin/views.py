@@ -1,11 +1,9 @@
-# misago_static_pages_plugin/admin/views.py
-
 from django.contrib import messages
 from django.shortcuts import redirect
 from django.utils.translation import pgettext_lazy
+from misago.admin.views import generic
 
 from ..models import StaticPage
-from misago.admin.views import generic
 from .forms import PageForm
 
 

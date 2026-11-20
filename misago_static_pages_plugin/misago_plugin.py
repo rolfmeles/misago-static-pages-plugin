@@ -1,11 +1,6 @@
-# misago_static_pages_plugin/misago_plugin.py
-# The Misago Plugin Manifest File
-
 from django.utils.encoding import force_str
 from django.utils.translation import pgettext_lazy
-
 from misago import MisagoPlugin
-
 
 manifest = MisagoPlugin(
     name=force_str(pgettext_lazy("mspp", "Static Pages")),
